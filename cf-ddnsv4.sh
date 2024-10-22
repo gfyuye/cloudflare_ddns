@@ -3,16 +3,14 @@
 ## 全局变量
 
 # API Token
-api_token="5E16Otr6e_PgjOSf5tk2AfFY3DVz9W9OB76ICBm4"
+api_token="token"
 # 区域 ID (Zone ID)
-zone_id="305c725d963c4d1f870b2c3b5ccbafc3"
+zone_id="zone_id"
 # 目标记录 ID
-record_id="c43b2385bb1facd3e6673cae75539ed5"
-
+record_id="record_id"
 ## IPv4
 # 目标记录
-record_name="hy.marketingmaster.bid"
-
+record_name="test.test.test"
 record_type="A"
 
 echo $(date +"%Y-%m-%d %H:%M:%S")  > /tmp/DDNS.log
